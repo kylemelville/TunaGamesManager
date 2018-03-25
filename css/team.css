@@ -1,0 +1,37 @@
+.profile-picture {
+	border: 3px solid orange;
+	height: 125px;
+	image-rendering: pixelated;
+	width: 125px;
+}
+
+form {
+	background-color: #ffffff;
+	margin-top: 25px;
+	padding: 15px;
+}
+form label {
+	color: #666666;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+form input[type=submit] {
+	height: 35px;
+}
+
+.employee-picture {
+	width: 135px;
+    height: 200px;
+    float: left;
+    overflow: hidden;
+}
+
+.employee-details {
+	margin-left: 150px;
+}
+.employee-details input[type=text] {
+	border: 1px solid #cccccc;
+	box-sizing: border-box;
+	padding: 7px;
+	width: 100%;
+}

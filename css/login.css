@@ -8,6 +8,7 @@ body {
 	color: #555555;
 	font-family: sans-serif;
 }
+
 .login {
 	background-color: #f5f5f5;
 	border: 1px solid #222222;
@@ -22,9 +23,10 @@ body {
 }
 .login input {
 	display: block;
-	margin: 20px auto;
+	margin: 0 auto;
+	margin-top: 20px;
 }
-.login input[type=text], input[type=password] {
+.login input[type=email], input[type=password] {
 	border: 1px solid #acacac;
 	box-sizing: border-box;
 	font-size: 1.2em;
@@ -35,7 +37,7 @@ body {
 	background-color: #22a0d6;
 	box-sizing: border-box;
 	color: #f5f5f5;
-	font-size: 1.3em;	
+	font-size: 1.3em;
 	padding: 12px;
 	width: 30%;
 }
@@ -43,6 +45,11 @@ body {
 	background-color: #33baf4;
 	color: #ffffff;
 	transition: 0.25s;
+}
+.login .input-error, #login-error {
+	color: #ff0000;
+	display: block;
+	margin-left: 10px;
 }
 .login .login-title {
 	font-size: 1.5em;
