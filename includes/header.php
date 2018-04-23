@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<title>
-			Tuna Games
+			Tuna Games Manager
 			<?php
 				session_start();
 				if(!isset($_SESSION['email'])) {

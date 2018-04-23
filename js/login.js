@@ -24,7 +24,6 @@ $(function() {
 			ajaxOptions.type = 'POST';
 			ajaxOptions.url = 'process_login.php';
 			ajaxOptions.success = function(response) {
-				console.log("response: " + response);
 				if(response == 'CORRECT') {
 					window.location.href = "./index.php";
 				} else {
